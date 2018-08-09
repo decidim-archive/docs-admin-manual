@@ -36,9 +36,27 @@ include::{partialsdir}/CONTRIBUTING.adoc[tag=contents]
 // (2/3) ADD BELOW THE LIST OF *UNNUMBERED* (e.g. PREAMBLE) CHAPTERS OR
 // SECTIONS. IMPORTANT: PUT A BLANK LINE BETWEEN INCLUDES.
 
-
-:sectnums:
-// (3/3) ADD BELOW THE LIST OF REGULAR CHAPTERS OR SECTIONS. IMPORTANT: PUT A
-// BLANK LINE BETWEEN INCLUDES.
-
 include::introduction.adoc[]
+
+include::what-is-decidim.adoc[]
+
+include::administering-decidim.adoc[]
+
+include::how-to-access-administrator-menu.adoc[]
+
+include::configuring-local-authorities-decidim.adoc[]
+
+include::pages.adoc[]
+
+include::users.adoc[]
+
+include::processess.adoc[]
+
+include::assemblies.adoc[]
+
+include::initiatives.adoc[]
+
+include::newsletters.adoc[]
+
+[appendix]
+include::information-pages.adoc[]
