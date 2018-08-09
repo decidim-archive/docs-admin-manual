@@ -7,10 +7,19 @@
 
 .Contents
 * xref:introduction.adoc[Introduction]
-* Second section
-** Subsection A
-** Subsection B
-* Third section
+* xref:what-is-decidim.adoc[What is Decidim]
+* xref:administering-decidim.adoc[Administering Decidim]
+** xref:how-to-access-administrator-menu.adoc[How to access the administrator menu]
+** xref:configuring-local-authorities-decidim.adoc[Configuring a local authority’s Decidim platform]
+* xref:pages.adoc[Pages]
+* xref:users.adoc[Users]
+* xref:processess.adoc[Processes]
+* xref:assemblies.adoc[Assemblies]
+* xref:initiatives.adoc[Initiatives]
+* xref:newsletters.adoc[Newsletters]
+* Appendixes
+** xref:information-pages.adoc[Information pages]
+
 
 .Other formats
 * xref:single-page.adoc[Single page (HTML)]
