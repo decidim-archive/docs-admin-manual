@@ -1,0 +1,61 @@
+== Cómo acceder al menú de administración
+:experimental:
+:icons: font
+:page-partial:
+:source-highlighter: highlightjs
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[] 
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata] 
+
+// Start writing here
+
+En primer lugar, hay que iniciar sesión. Para ello, dirígete a la parte superior derecha de la página web de Decidim del municipio (ver <<image68-fig>>) y haz clic en *Entra*. Solo las personas que tienen configurados los permisos de administrador pueden acceder al *Panel de administración*.
+
+[#image68-fig]
+._Página principal. Demo Decidim._
+image::image68.png[]
+
+Se abrirá la ventana *Iniciar sesión* (ver <<image62-fig>>), en la que deberán completarse los campos *Correo electrónico* y *Contraseña*, y hacer clic en *Iniciar sesión*. Primero, es necesario que la persona se haya registrado.
+
+Para registrarse, se puede hacer desde esta misma ventana (ver <<image62-fig>>), haciendo clic en *Créate una cuenta* (en la parte superior de la pantalla) o en *Regístrate* (en la parte inferior), o bien desde la página principal, haciendo clic en *Regístrate*.
+
+[#image62-fig]
+._Entra._
+image::image62.png[]
+
+En la ventana *Regístrate* (ver <<image74-fig>>), hay que marcar si se trata de un *individuo* o de una *organización* o *colectivo*, escribir el *nombre* (nombre público que aparecerá en las publicaciones; a efectos de garantizar el anonimato, puede ser cualquier nombre), el *correo electrónico* y la *contraseña*, y marcar la casilla correspondiente si deseas *recibir un boletín ocasional con información relevante*.
+
+Para acabar, hay que hacer clic en *Al registrarte aceptas los términos y condiciones de uso* (disponibles en el enlace), y hacer clic en *Registrarse*.
+
+[#image74-fig]
+._Regístrate._
+image::image74.png[]
+
+Una vez finalizado el registro, se puede acabar de configurar las opciones del usuario, como la información adicional o las notificaciones. Para ello, haz clic sobre el nombre de usuario (en este caso, *usuario1*) en la parte superior derecha de la web. Se abrirá un desplegable desde el que se puede acceder a *Mi cuenta, Mi perfil público*,  ver las *Notificaciones*, ver las *Conversaciones*, ir al *Tablero de administración* o salir haciendo clic en *Cerrar sesión* (ver <<image54-fig>>).
+
+[#image54-fig]
+._Acceder al tablero de administración._
+image::image54.png[]
+
+Haz clic en *Mi cuenta* para acabar de configurar la cuenta: añadir un avatar o una imagen, modificar el nombre o el correo electrónico o definir el nivel de notificaciones que se desean recibir. Se abrirá la ventana *Ajustes de usuario* (ver <<image4-fig>>).
+
+[#image4-fig]
+._Mi cuenta: Ajustes de usuario._
+image::image4.png[]
+
+Para establecer el nivel de notificaciones, haz clic en *Configuración de notificaciones*, en el menú de la izquierda de esta pantalla, y selecciona si deseas recibir un correo electrónico cada vez que recibas una notificación y si deseas recibir boletines informativos (ver <<image39-fig>>).
+
+[#image39-fig]
+._Configuración de notificaciones._
+image::image39.png[]
+
+Para acceder al menú de administración, haz clic en el nombre en la parte superior derecha de la web (en este caso, *usuario1*) y selecciona *Tablero de administración* en el desplegable. Recuerda que, para acceder al menú de administración, debes tener configurados los permisos de administrador.
+
+Se abrirá el *PANEL DE CONTROL* (ver <<image71-fig>>). Desde allí (haciendo clic en las opciones que aparecen en el menú de la izquierda), se puede configurar la plataforma Decidim del municipio, las páginas estáticas, los procesos participativos y los grupos de procesos, las asambleas o los consejos, las iniciativas y los boletines, y hacer la gestión de los usuarios.
+
+[#image71-fig]
+._Panel de control._
+image::image71.png[]
