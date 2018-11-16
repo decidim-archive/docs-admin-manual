@@ -318,7 +318,7 @@ Click on *NEW* to attach a file. Then, in the *NEW ATTACHMENT* window (<<new-a
 ._New attachment_.
 image::image17.png[image]
 
-[[h.39kk8xu]]
+[[proposals]]
 ==== Proposals
 
 To configure the *Proposals* function, go to the *PROCESSES* submenu and click on *Features/ Components*, then click on *Add feature/ Component* in the upper right part of the window and select *Proposals*. The *ADD FEATURE/ COMPONENT: PROPOSALS* window will open (<<add-feature-component-proposals-fig>>). The information you need to enter when the proposal function is configured is:
@@ -370,7 +370,7 @@ To create a new proposal, in other words, to make official proposals, click on *
 ._Create proposal_.
 image::image35.png[image]
 
-[[h.3mzq4wv]]
+[[budgets]]
 ==== Budgets
 
 To configure the participatory budget function, go to the *PROCESSES* submenu, click on *Features/Components* click on *Add feature/ Component* in the upper right part of the window and select *BUDGETS*. The *ADD FEATURES/ COMPONENTS: BUDGETS* (<<add-feature-component-budgets-fig>>) window will open. You need to fill in the following fields:
@@ -430,7 +430,7 @@ The *Editing Permissions* window opens, in which the criterion must be selected
 ._Budget edit permissions_.
 image::image66.png[image]
 
-[[h.3vg7bsevff4p]]
+[[surveys]]
 ==== Surveys
 This component allows you to design and carry out surveys, as well as to visualize the results of the surveys. It is useful to be able to know the opinion of the citizens.
 
@@ -469,7 +469,7 @@ Click again *Add question* to configure the rest of the questions. The same pro
 ._Create survey_.
 image::image64.png[image]
 
-[[h.vcki5p75qbnl]]
+[[accountability]]
 ==== Accountability
 The *Accountability* component allows people who visit the platform to view the level of execution (global, by categories and / or subcategories), of the results of a participatory process. That is to say, the proposals that have ended up being the result of the decision making in the Decidim, either directly (through the result of the application of a voting system) or mediated by meetings, assemblies, technical or political team, and its degree of execution.
 
@@ -520,7 +520,7 @@ To manage the *Accountability*, click on *_Acountabilityname_* from the *Proces
 ._Results_.
 image::image18.png[image]
 
-[[h.jfz7cmhy3v63]]
+[[debates]]
 ==== Debates
 The feature/ component *Debate* allows you to open questions or discussions about specific topics defined by the administrators or the participants. +
 To configure the *Debate* Feature/ Component, in the submenu of *PARTICIPATORY PROCESSES*, click on *features/ components*. Then click on *Add feature/ component* in the upper right corner of the window and select Debates. The window opens *ADD FEATURE/ COMPLEMENT: DEBATES* (<<add-feature-components-debates-fig>>).
@@ -563,7 +563,7 @@ image::image36.png[image]
 
 [[h.2szc72q]]For each of the debates, the title, the start date, the end date and the actions that can be made with each debate (*Edit* and *Delete*) are shown.
 
-[[h.hepx5kp3mfrt]]
+[[sortitions]]
 ==== Sortitions
 
 The *Sortitions* function allows you to randomly select a certain number of proposals from a series, for example, to determine at random which people will form part of a group (such as a committee) from a larger group, where each person would be a nomination.
@@ -599,7 +599,7 @@ The fields that have to be filled in for configuring a new draw are as follows:
 ._New Sortition_.
 image::image4.png[image]
 
-[[h.279ka65]]
+[[process-groups]]
 === Process groups
 
 A group of processes proves useful for subdividing large participatory processes into subprocesses according to scope (territorial areas of organisation, such as districts and neighbourhoods, or sectoral scopes). An example are the Municipal Action Plans (PAMs) where Action Plans can be grouped by District.
