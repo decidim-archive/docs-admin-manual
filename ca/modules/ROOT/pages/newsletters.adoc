@@ -20,4 +20,4 @@ Per a crear un butlletí, clicar **BUTLLETINS** en el menú de l’esquerra del
 ._Nou butlletí_.
 image::image29.png[nou butlletí.png]
 
-Es pot utilitzar "%\{name}" en qualsevol part del cos o assumpte i serà reemplaçat pel nom del destinatari.
+Es pot utilitzar `{``name``}` en qualsevol part del cos o assumpte i serà reemplaçat pel nom del destinatari.

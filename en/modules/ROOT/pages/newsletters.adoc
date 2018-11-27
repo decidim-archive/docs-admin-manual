@@ -20,4 +20,4 @@ To create a newsletter, click on *NEWSLETTERS* from the menu on the left of the
 ._New newsletter_.
 image::image59.png[image]
 
-You can use "%\{name}" in any part of the body or subject and this will be replaced by the addressee's name.
+You can use `{``name``}` in any part of the body or subject and this will be replaced by the addressee's name.

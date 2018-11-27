@@ -20,4 +20,4 @@ Para crear un boletín, haz clic en *BOLETINES*, en el menú de la izquierda del
 ._Nuevo boletín._
 image::image26.png[]
 
-Se puede utilizar "%\{name}" en cualquier parte del cuerpo o asunto, y será reemplazado por el nombre del destinatario.
+Se puede utilizar `{``name``}` en cualquier parte del cuerpo o asunto, y será reemplazado por el nombre del destinatario.
