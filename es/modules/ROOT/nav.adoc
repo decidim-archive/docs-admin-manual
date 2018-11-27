@@ -1,10 +1,5 @@
 // Add to the following lists cross references to all the pages you want to see
 // listed in the navigation menu for this document.
-.Información
-* xref:doc-info.adoc[Información del documento]
-* xref:contributing.adoc[Criterios de autoría y como participar en este documento]
-
-.Contenidos
 * xref:introduction.adoc[Introducción]
 * xref:what-is-decidim.adoc[¿Qué es Decidim?]
 * xref:administering-decidim.adoc[Administración de Decidim]
@@ -18,7 +13,5 @@
 * xref:newsletters.adoc[Boletines]
 * Apéndices
 ** xref:information-pages.adoc[Páginas estáticas informativas]
-
-.Otros formatos
-* xref:single-page.adoc[Página única (HTML)]
-* [.pdf-download-button]#PDF#
+* xref:doc-info.adoc[_Información del documento_]
+* xref:contributing.adoc[_Criterios de autoría y como participar en este documento_]
