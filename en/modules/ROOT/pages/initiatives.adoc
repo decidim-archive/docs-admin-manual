@@ -5,10 +5,10 @@
 :source-highlighter: highlightjs
 
 ifndef::env-site,env-github[]
-include::_attributes.adoc[] 
+include::_attributes.adoc[]
 endif::[]
 
-include::{partialsdir}/README.adoc[tag=metadata] 
+include::{partialsdir}/README.adoc[tag=metadata]
 
 // Start writing here
 
@@ -22,17 +22,52 @@ To configure the initiative type, click on *INITIATIVES* on the menu to the left
 ._Initiative types_.
 image::image57.png[image]
 
-The *New initiative type* window will open (<<new-initiative-type-fig>>), where you need to enter the *Title, Description* of the initiative and upload a *Banner image*. To finish, click on *Create*.
+The *New initiative type* window will open (<<new-initiative-type-fig>>), where you need to enter the *Title, Description* of the initiative and upload a *Banner image*. You may also apply the settings you need for your initiative type in the option section and define the authorization settings for users to verify their signature. To finish, click on *Create*.
 
 [#new-initiative-type-fig]
 ._New initiative type_.
 image::image13.png[image]
 
-A window will immediately open with the information just created on the initiative type, where the number of signatures required has to be specified according to possible scopes (city, neighbourhood/ district). (See <<initiative-type-window-fig>> at the very bottom)
+
+A window will immediately open with the information just created on the initiative type, where the number of signatures required has to be specified according to possible scopes (city, neighbourhood/ district).(See <<initiative-type-window-fig>> at the very bottom)
 
 [#initiative-type-window-fig]
 ._Initiative type's window_.
 image::image61.png[image]
+
+A couple more information about the configuration settings in the *OPTIONS* section :
+
+`Collect participant personal data on signature` if ticked, it enables a form (see <<personal-data-form-enabled>>) that users will have to fill in order to sign the initiative. The info gathered in that form will be exported along the signatures in the pdf export.
+
+[#personal-data-form-enabled]
+._Default personal data collection form_.
+image::image80.png[image]
+
+`Enable promoting committee` if ticked and if the minimum number of committee members is set above 1 then the initiative author will need to find at least 1 promoting committee member (as author they are automatically part of it) to be able to send its initiative to technical validation.
+
+`Enable child scope signatures` if ticked, it enables *sub-jauges* (see <<sub-jauges>>) which need special configuration in order to work :
+- *SCOPES FOR THE INITIATIVE TYPE* need to be configured in hierarchical way (see <<child-scope-config>>) : 1 Parent - N Children
+- `Only allow global scope initiative creation` needs to be ticked in the *OPTIONS* section when the parent scope is the Global scope.
+- It works with an authorization handler that associates a scope to the user, make sure you select the right authorization handler in the *AUTHORIZATION SETTINGS* section (See <<authorization-handler-settings>>). (You can test it with the "Example authorization" aka `Dummy Authorization Handler`)
+- /!\ this config option doesn't support offline votes yet, so make sure you selected *Online* as a `signature type` in the *OPTION* section.
+
+[#sub-jauges]
+._Sub-jauges display on initiative page_.
+image::image81.png[image]
+
+[#child-scope-config]
+._Example of scope configuration for "Enable child scope signatures"_.
+image::image78.png[image]
+
+[#authorization-handler-settings]
+._Example of an authorization handler selection"_.
+image::image82.png[image]
+
+`Only allow global scope initiatives creation`: you want to tick this flag if you ticked enable `Child scope signatures` and configured the global scope as your parent scope and children scope as 1st level scopes (see <<global-parent-config>>). By enabling this, the scope selection will be automatically made to Global scope in the initiative creation wizard and won't be displayed to the user.
+
+[#global-parent-config]
+._Example of scope configuration for "Only allow global scope initiatives creation"_.
+image::image79.png[image]
 
 Second, the administrator will have to monitor the initiatives created by users and check whether all the information presented is correct. Go to the initiative submenu (<<initiative-types-fig>>) and click first on *Initiatives* and then on the corresponding initiative. On the left of the submenu for that initiative (<<submenu-of-a-specific-initiative-fig>>), you can: configure the *Committee members*, the *Meetings* and create a *Page* and *Attachments*. The procedure for configuring these functions is identical to the one used in other participation spaces, such as participatory processes and assemblies.
 
